@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+  <script type="text/javascript">
+
+  // <!-- 1 - Chiedi all'utente la sua email, controlla che sia nella lista di chi può accedere, stampa un messaggio appropriato -->
+
+  var mailUtente = prompt('inserisci la tua e-mail');
+  var arr = ['prova1@libero.it', 'prova2@gmail.com', 'prova3@yahoo.it'];
+  var password = true;
+
+  console.log(mailUtente, arr);
+
+  for (var i = 0; i < arr.length; i++){
+
+    console.log(i, arr[i]);
+
+    if (arr[i] == mailUtente){
+
+      console.log('accesso consentito')
+
+    } else{
+      console.log('indirizzo non corretto! Riprova.')
+    }
+  }
+
+
+
+  console.log(i);
+
+
+
+
+
+  // <!-- 2 - Generare un numero random da 1 a 6, sia per il giocatore sia per il compute. Stabilire il vincitore, in base a chi fa il punteggio più alto. -->
+
+  // var min1 = 1;
+  // var max1 = 6 - min1 + 1;
+  // var numP1 = Math.floor(Math.random() * max1) + min1;
+  //
+  // var min2 = 1
+  // var max2 = 6 - min2 + 1;
+  // var numCpu = Math.floor(Math.random() * max2) + min2;
+  //
+  // console.log(numP1,numCpu)
+  //
+  // if (numP1 > numCpu ){
+  //   console.log('Hai vinto');
+  // } else if(numP1 < numCpu){
+  //   console.log('Ritenta sarai piu fortunato')
+  // } else
+  // console.log('Pareggio!')
+
+  </script>
+
+
+
+  </body>
+</html>
